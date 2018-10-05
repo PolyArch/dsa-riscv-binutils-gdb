@@ -177,6 +177,7 @@ const struct riscv_opcode riscv_opcodes[] =
 {"ss_dma_addr_p", "I",   "s,t,q",  MATCH_SS_DMA_ADDR_P,    MASK_SS_DMA_ADDR_P,    match_opcode, 0},
 {"ss_wr_dma",     "I",   "s,t,q",  MATCH_SS_WR_DMA,        MASK_SS_WR_DMA,        match_opcode, 0},
 {"ss_wr_rd",      "I",   "s,j",    MATCH_SS_WR_RD,         MASK_SS_WR_RD,         match_opcode, 0},
+{"ss_rem_port",   "I",   "s,t,q",  MATCH_SS_REM_PORT,      MASK_SS_REM_PORT,      match_opcode, 0},
 {"ss_ind",        "I",   "s,t,q",  MATCH_SS_IND,           MASK_SS_IND,           match_opcode, 0},
 {"ss_ind_wr",     "I",   "s,t,q",  MATCH_SS_IND_WR,        MASK_SS_IND_WR,        match_opcode, 0},
 {"ss_atom_op",    "I",   "s,t,q",  MATCH_SS_ATOMIC_SCR_OP, MASK_SS_ATOMIC_SCR_OP, match_opcode, 0},
