@@ -600,7 +600,7 @@
 #define MATCH_SS_WR_DMA 0x405b
 #define MASK_SS_WR_DMA  0x707f
 #define MATCH_SS_WR_RD 0x505b
-#define MASK_SS_WR_RD  0x7fff
+#define MASK_SS_WR_RD  0x707f
 #define MATCH_SS_REM_PORT 0x205b
 #define MASK_SS_REM_PORT 0x707f
 #define MATCH_SS_IND 0x507b
