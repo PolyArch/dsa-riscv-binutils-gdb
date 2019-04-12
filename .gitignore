@@ -59,9 +59,3 @@ stamp-*
 /mpc*
 /gmp*
 /isl*
-
-# ignore ss extensions
-include/opcode/ss_encoding.h
-include/opcode/ss_opcodes.h
-opcodes/ss_textformat.h
-
