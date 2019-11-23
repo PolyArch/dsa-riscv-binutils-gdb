@@ -21,3 +21,4 @@
 {"ss_cfg_ind", "I", "s,t,q", MATCH_SS_CFG_IND, MASK_SS_CFG_IND, match_opcode, 0},
 {"ss_cfg_atom_op", "I", "s,t,q", MATCH_SS_CFG_ATOM_OP, MASK_SS_CFG_ATOM_OP, match_opcode, 0},
 {"ss_wait", "I", "s,t,q", MATCH_SS_WAIT, MASK_SS_WAIT, match_opcode, 0},
+{"ss_wait_df", "I", "s,j", MATCH_SS_WAIT_DF, MASK_SS_WAIT_DF, match_opcode, 0},
